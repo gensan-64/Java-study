@@ -2,6 +2,7 @@ package example;
 
 public class Cat {
 	String name;
+	int age;
 	boolean hungry;
 	
 	void eat() {
