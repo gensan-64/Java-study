@@ -20,4 +20,20 @@ public class Cat {
 		System.out.println(name + "> 遊んでお腹が減ったにゃー");
 		hungry = true;
 	}
+	
+	void setName(String catName) {
+		name = catName;
+	}
+	
+	String getName() {
+		return name;
+	}
+	
+	void setAge(int catAge) {
+		age = catAge;
+	}
+	
+	int getAge() {
+		return age;
+	}
 }
