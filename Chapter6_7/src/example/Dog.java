@@ -4,7 +4,7 @@ public class Dog implements Pet {
 
 	@Override
 	public void eat() {
-		eat("ご飯")
+		eat("ご飯");
 
 	}
 
