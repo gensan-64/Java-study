@@ -12,7 +12,17 @@ public class PolymorphismSample {
 		Scanner keyInput = new Scanner(System.in);
 		String inputStr = keyInput.nextLine();
 		
-
+		
+		if (inputStr.equals("1")) {
+			pet = new Cat();
+			System.out.println("<猫が選択されました>");
+		} else if (inputStr.equals("2")) {
+			pet = new Dog();
+			System.out.println("<犬が選択されました>");
+		} else {
+			pet = new Cat();
+			System.out.println("<1,2以外が入力されたので、猫(デフォルト)>を選択します>");
+		}
 	}
 
 }
