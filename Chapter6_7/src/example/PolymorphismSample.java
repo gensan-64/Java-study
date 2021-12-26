@@ -23,6 +23,21 @@ public class PolymorphismSample {
 			pet = new Cat();
 			System.out.println("<1,2以外が入力されたので、猫(デフォルト)>を選択します>");
 		}
+		System.out.println();
+        System.out.println("--- 選択されたペットにご飯を与えます ---");
+        pet.eat();
+
+        System.out.println();
+        System.out.println("--- 選択されたペットにおもちゃを与え、遊ばせます ---");
+        pet.playToy();
+
+        System.out.println();
+        System.out.println("--- 選択されたペットに大好きなペットフードを与えます ---");
+        pet.eat("大好きなペットフード");
+
+        System.out.println();
+        System.out.println("--- 選択されたペットにボールを与え、遊ばせます ---");
+        pet.playToy("ボール");
 	}
 
 }
