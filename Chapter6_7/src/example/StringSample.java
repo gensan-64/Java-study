@@ -17,6 +17,13 @@ public class StringSample {
 		
 		String str3ToLower = str3.toLowerCase();
 		System.out.println("str3.toLowerCase() → " + str3ToLower);
+		
+		System.out.println("--------------------");
+        String str4 = "ABCdef123ＡＢＣｄｅｆ";
+        System.out.println("str4 = " + str4);
+
+        String str4ToLower = str4.toLowerCase();
+        System.out.println("str4.toLowerCase() → " + str4ToLower);
 	}
 
 }
