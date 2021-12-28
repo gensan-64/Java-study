@@ -24,6 +24,13 @@ public class StringSample {
 
         String str4ToLower = str4.toLowerCase();
         System.out.println("str4.toLowerCase() → " + str4ToLower);
+        
+        System.out.println("--------------------");
+        String str3ToUpper = str3.toUpperCase();
+        System.out.println("str3.toUpperCase() → " + str3ToUpper);
+
+        String str4ToUpper = str4.toUpperCase();
+        System.out.println("str4.toUpperCase() → " + str4ToUpper);
 	}
 
 }
